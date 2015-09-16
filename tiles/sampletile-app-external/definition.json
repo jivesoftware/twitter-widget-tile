@@ -14,5 +14,5 @@
         "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
         "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
     },
-    "view": "/sampletile-app-external/view.html"
+    "view": "/sampletile-app-external/view.html?features=jq-1.11"
 }
