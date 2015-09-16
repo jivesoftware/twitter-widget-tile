@@ -1,0 +1,16 @@
+{
+    "displayName" : "Twitter Widget Tile",
+    "name" : "twitter-widget-tile",
+    "description" : "Configurable Twitter feed widget tile",
+    "style": "CUSTOM_VIEW",
+    "displayWidth" : "ALL",
+    "dataProviderKey": "internal",
+    "pageTypes" : [ "PLACE", "USER", "NEWS" ],
+    "icons": {
+        "16": "extension-16.png",
+        "48": "extension-48.png",
+        "128": "extension-128.png"
+    },
+    "config": "/twitter-widget-tile/configuration.html",
+    "view": "/twitter-widget-tile/view.html?features=jq-1.11,core-v3,tile"
+}

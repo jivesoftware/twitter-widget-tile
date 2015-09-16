@@ -2,8 +2,8 @@
   "jiveExtension": {
     "id": "9ca6a14d-d606-46d8-a89b-309ef5314799",
     "uuid": "9ca6a14d-d606-46d8-a89b-309ef5314799",
-    "name": "JiveDev Twitter Tile",
-    "description": "JiveDev Twitter Feed Tile",
+    "name": "twitter-widget-tile",
+    "description": "Configurable Twitter feed tile",
     "icon_16": "extension-16.png",
     "icon_48": "extension-48.png",
     "icon_128": "extension-128.png",

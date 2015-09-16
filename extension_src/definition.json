@@ -4,28 +4,24 @@
     },
     "tiles": [
         {
-            "sampleData": {
-                "pushData": "Not yet initialized",
-                "pushCount": "-1"
-            },
-            "displayName": "JiveDev Twitter",
-            "name": "JiveDev Twitter",
-            "description": "JiveDev twitter feed",
+            "displayName": "Twitter Widget Tile",
+            "name": "twitter-widget-tile",
+            "description": "Configurable Twitter feed widget tile",
             "style": "CUSTOM_VIEW",
             "displayWidth": "ALL",
+            "dataProviderKey": "internal",
             "pageTypes": [
                 "PLACE",
                 "USER",
                 "NEWS"
             ],
             "icons": {
-                "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
-                "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
-                "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+                "16": "extension-16.png",
+                "48": "extension-48.png",
+                "128": "extension-128.png"
             },
-            "view": "https://3c4b1357.ngrok.io/sampletile-app-external/view.html",
-            "unregister": "https://3c4b1357.ngrok.io/unregister",
-            "register": "https://3c4b1357.ngrok.io/registration"
+            "config": "/public/tiles/twitter-widget-tile/configuration.html",
+            "view": "/public/tiles/twitter-widget-tile/view.html?features=jq-1.11,core-v3,tile"
         }
     ]
 }
