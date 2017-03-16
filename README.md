@@ -1,5 +1,6 @@
 # Twitter Widget Custom View Tile
 [![JiveDev](dev_logo.png)](https://developer.jiveosftware.com)
+
 This Jive Custom View Tile integration takes allows you put a Twitter Widget into your community via an installable Tile.
 
 
